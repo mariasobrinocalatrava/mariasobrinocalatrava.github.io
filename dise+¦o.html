@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title> CSS LAYOUT</title>
+
+	<style>
+			#span {
+                text-decoration:underline;
+                background-color:aquamarine;               
+            }
+            #div {
+                color:yellowgreen; 
+            }
+            #overflow {
+                background-color: rgb(150, 29, 29);
+                height: 150px;
+                width: auto ;
+                overflow: auto;
+                border: ridge rgb(223, 102, 102) 5px;
+                margin: 5px;
+                padding: 5px
+            }
+            #box_model {
+                margin: 15px;
+                padding: none;
+                border:ridge 10px rgb(206, 11, 173)
+            }
+	</style>
+
+</head>
+<body>
+	<h1>CSS LAYOUT</h1>
+	<div id="div"><h2>Span</h2>
+	<p>La etiqueta <span id="span">span</span> para seleccionar una palabra <br>
+		o grupos de palabras y seleccionarlas con CSS.
+		Por ejemplo la etiqueta span esta seleccionada en la palabra span.</p>
+
+	<h2>Div</h2>
+	<p>Está estiqueta sirve para seleccionarun rango de palabras mas amplio que span.
+	Estas dos propiedasdes estám encerrados en div.</p></div>
+
+	<h2>Overflow</h2>
+	<p>Cuando ajustamos un texto a una altura o anchura determinada, se solapa encima de otro que teniamos.<br>
+	Para evitarlo podemos utilizar el atributo de overflow con la etiqueta style.<br>
+	Overflow lo podemos determinar como visible, oculto o automático, donde se pone una barra de desplazamiento<br>
+	Para ponerlos en oculto debes utilizar hidden y para ponerlo en la barra de desplazamiento. Por ejemplo:
+	</p><p id="overflow">Informacion sobre enfermería, el cuidado autónomo y colaborativo de personas de todas las edades, familias, grupos y comunidades, enfermos o sanos y en todos los entornos.
+		<br>Las enfermeras están en la línea de acción en la prestación de servicios y desempeñan un papel importante en la atención centrada en la persona.
+		<br>La extensión de esta carrera depende de la casa de estudios y del programa académico. odemos decir que el estudio de esta licenciatura dura 3 años.
+		<br>De todos modos, podríamos decir que el salario bruto medio de una enfermera en la Sanidad Pública en España oscila entre los 26.000 y los 30.000 € anuales.
+		<br>Enfermeras/os especialistas: 1.324,11 euros por cada una de ellas. Enfermeras/os: 1.284,16 euros por cada una de ellas. Trienios: 38,12 euros cada trienio. Turnicidad sin noches: 78,88 €/mes.
+		<br>La encuesta mostró que a una enfermera de tiempo completo que trabaja en la Argentina se le paga $ 9,14 bruto por hora y $ 7,49 neto, mientras que en Colombia ganaría un 35 por ciento menos.
+		<br>El salario promedio de enfermera/o en Principado de Asturias es de 2689 € por mes.
+		<br>El salario enfermera promedio en Argentina es de $ 253.500 al año o $ 130 por hora. Los cargos de nivel inicial comienzan con un ingreso de $ 168.000 al año, mientras que profesionales más experimentados perciben hasta $ 492.450 al año. ¿Cuánto me queda luego de la deducción de impuestos en diferentes regiones?
+	</p>
+
+	<h2>Modelo de caja</h2>
+	<p>Es un módulo de CSS que define unas medidas para los elementos de la página web a modo de bloques.
+		<ul>
+			<li>Padding: página de relleno entre el contenido y el borde y podemos editarlo poniendo padding en la etiqueta de style dentro de un bloque concreto.</li>
+			<li>Borde: el límite del elemento. Podemos modeificar su grosor, modelo y forma , poniendo border en la etiqueta de style y un bloque concreto. </li>
+			<li>Margen: distancia entre dos elementos. Cambiar la distancia poniendo margen dentro de la etiqueta style y en un bloque concreto.</li>
+		</ul>
+		La imagen siempre muestra los modelos de caja.</p>
+
+	<img src="https://www.oscarblancarteblog.com/wp-content/uploads/2017/10/MoxModel-secciones.png" height="150px" id="box_model">
+	<p>El padding de la imagen anterior lo he puesto de 0px; el borde lo he hecho con un grosor de 10px, de color azul y con una forma "ridge"; y el margen es de 15px.</p>
+	<p>Página hecha por María Sobrino Calatrava</p>
+	<a href="index.html">Volver a index</a>
+</body>
+</html>
+</body>
+
+</html>
